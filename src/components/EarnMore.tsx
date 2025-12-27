@@ -9,7 +9,7 @@ interface EarnMoreProps {
 
 const EarnMore: React.FC<EarnMoreProps> = ({ onBack }) => {
   const handleSignUpNow = () => {
-    window.open('https://bluepay2026.netlify.app/', '_blank');
+    window.open('https://red-pay.vercel.app/', '_blank');
   };
 
   return (
@@ -28,11 +28,11 @@ const EarnMore: React.FC<EarnMoreProps> = ({ onBack }) => {
         <div className="w-full max-w-md space-y-8 text-center text-white">
           
           <div className="space-y-8">
-            <h1 className="text-5xl font-bold text-white mb-8">BluePay</h1>
+            <h1 className="text-5xl font-bold text-white mb-8">RedPay</h1>
             
             <div className="space-y-6">
               <p className="text-xl leading-relaxed">
-                Take your earnings to the next level with BluePay.
+                Take your earnings to the next level with RedPay.
               </p>
               
               <p className="text-lg leading-relaxed">

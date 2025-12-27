@@ -9,11 +9,11 @@ interface JoinCommunitiesProps {
 
 const JoinCommunities: React.FC<JoinCommunitiesProps> = ({ onBack }) => {
   const handleJoinWhatsApp = () => {
-    window.open('https://chat.whatsapp.com/B8kfCmRCwgbKiUMCZ8fQhe?mode=wwt', '_blank');
+    window.open('https://chat.whatsapp.com/B8kfCmRCwgbKiUMCZ8fQhe?=wwt', '_blank');
   };
 
   const handleJoinTelegram = () => {
-    window.open('https://t.me/officialbluepay2025', '_blank');
+    window.open('https://t.me/paygochannnel', '_blank');
   };
 
   return (

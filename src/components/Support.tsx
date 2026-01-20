@@ -9,11 +9,7 @@ interface SupportProps {
 
 const Support: React.FC<SupportProps> = ({ onBack }) => {
   const handleLiveChat = () => {
-    // This will trigger the live chat component that's already on all pages
-    const chatButton = document.querySelector('[aria-label="Open live chat"]') as HTMLButtonElement;
-    if (chatButton) {
-      chatButton.click();
-    }
+    window.open('https://t.me/Redpaycustomerservice', '_blank');
   };
 
   const handleWhatsAppSupport = () => {
@@ -41,7 +37,7 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
           {/* Live Chat */}
           <div className="bg-white rounded-2xl p-6 shadow-sm">
             <div className="flex items-center space-x-4 mb-4">
-              <div className="text-purple-600 text-2xl">💬</div>
+              <div className="text-blue-700 text-2xl">💬</div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-900">Telegram Live Chat</h3>
                 <p className="text-gray-600">Chat with our support team directly in the app</p>
@@ -49,7 +45,7 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
             </div>
             <Button 
               onClick={handleLiveChat}
-              className="w-full h-14 bg-purple-600 hover:bg-blue-700 text-white text-lg font-medium rounded-xl mb-4"
+              className="w-full h-14 bg-blue-600 hover:bg-blue-700 text-white text-lg font-medium rounded-xl mb-4"
             >
               💬 Start Live Chat
             </Button>

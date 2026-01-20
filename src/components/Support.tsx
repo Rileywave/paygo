@@ -43,13 +43,13 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
             <div className="flex items-center space-x-4 mb-4">
               <div className="text-purple-600 text-2xl">💬</div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900">Live Chat</h3>
+                <h3 className="text-xl font-semibold text-gray-900">Telegram Live Chat</h3>
                 <p className="text-gray-600">Chat with our support team directly in the app</p>
               </div>
             </div>
             <Button 
               onClick={handleLiveChat}
-              className="w-full h-14 bg-purple-600 hover:bg-purple-700 text-white text-lg font-medium rounded-xl mb-4"
+              className="w-full h-14 bg-purple-600 hover:bg-blue-700 text-white text-lg font-medium rounded-xl mb-4"
             >
               💬 Start Live Chat
             </Button>
@@ -74,7 +74,7 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
               💬 Chat on WhatsApp
             </Button>
             <p className="text-gray-600 text-sm">
-              Contact: +234 818 966 8037
+            
             </p>
           </div>
         </div>

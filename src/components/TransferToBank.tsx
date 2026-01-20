@@ -31,7 +31,7 @@ const TransferToBank: React.FC<TransferToBankProps> = ({ onBack, onTransferCompl
       return;
     }
 
-    if (payIdCode !== 'PAY4463653') {
+    if (payIdCode !== 'PAY5563654') {
       alert('Invalid PAY ID Code. Please enter a valid PAY ID to proceed with withdrawal.');
       return;
     }

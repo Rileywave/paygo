@@ -161,6 +161,11 @@ const Index = () => {
     setShowOnboarding(true);
   };
 
+  const handleContactSupport = () => {
+    navigateToPage('support');
+    setShowOnboarding(true);
+  };
+  
   const handleEarnMore = () => {
     navigateToPage('earnMore');
   };
@@ -510,7 +515,7 @@ const Index = () => {
         <PaymentFailed 
           onBack={handleBackToDashboard} 
           onTryAgain={handleTryAgainPayment}
-          onGoToDashboard={handleBackToDashboard}
+          onContactSupport={handleContactSupport}
         />
         <LiveChat />
       </>

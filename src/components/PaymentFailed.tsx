@@ -6,10 +6,10 @@ import { Button } from '@/components/ui/button';
 interface PaymentFailedProps {
   onBack: () => void;
   onTryAgain: () => void;
-  onGoToDashboard: () => void;
+  onContactSupport: () => void;
 }
 
-const PaymentFailed: React.FC<PaymentFailedProps> = ({ onBack, onTryAgain, onGoToDashboard }) => {
+const PaymentFailed: React.FC<PaymentFailedProps> = ({ onBack, onTryAgain, onContactSupport }) => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -59,11 +59,11 @@ const PaymentFailed: React.FC<PaymentFailedProps> = ({ onBack, onTryAgain, onGoT
           </Button>
 
           <Button 
-            onClick={onGoToDashboard}
+            onClick={onContactSupport}
             variant="outline"
             className="w-full h-14 bg-white border-2 border-gray-300 text-gray-900 text-lg font-medium rounded-xl hover:bg-gray-50"
           >
-            Go to Dashboard
+            Contact Support
           </Button>
         </div>
 

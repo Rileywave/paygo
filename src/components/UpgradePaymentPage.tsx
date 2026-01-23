@@ -22,7 +22,7 @@ const UpgradePaymentPage: React.FC<UpgradePaymentPageProps> = ({
   const [receiptUploaded, setReceiptUploaded] = useState(false);
 
   const accountDetails = {
-    accountNumber: '0846976211',
+    accountNumber: '8053048212',
     bankName: 'PAGA',
     accountName: 'MATTHEW OFORAH'
   };

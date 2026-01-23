@@ -21,7 +21,7 @@ const PayIdPaymentPage: React.FC<PayIdPaymentPageProps> = ({
   const amount = '₦6,500';
 
   const accountDetails = {
-    accountNumber: '0846976211',
+    accountNumber: '8053048212',
     bankName: 'PAGA',
     accountName: 'MATTHEW OFORAH'
   };
